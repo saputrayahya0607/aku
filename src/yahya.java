@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class yahya {
+public class yahya {
+    public static void main(String[] args) {
+        if ("hello")
+    }
 }
