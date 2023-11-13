@@ -1,19 +1,12 @@
-import java.util.Scanner;
-
 public class yahya {
     public static void main(String[] args) {
-        Scanner S = new Scanner(System.in);
-        System.out.println("masukan angka : ");
-        int x = S.nextInt();
-        if (x > 0) {
-            System.out.println(x + " adalah bilangan positif");
+        String status;
+        for (int angka = 10; angka < angka = 20; angka++){
+            if (angka % 2 == 0){
+                status ="angka genap valid";
+            }else {
+                status ="angka genap invalid";
         }
-        else {
-            if (x > 0) {
-                System.out.println(x + " adalah bilangan negatif");
-            } else {
-                System.out.println(x + "adalah angka nol");
-            }
-        }
+        System.out.println(angka + " adalah " +status);
     }
 }
